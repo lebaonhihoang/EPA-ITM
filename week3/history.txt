@@ -1,0 +1,58 @@
+1  mkdir week
+    2  mkdir week3
+    3  ls
+    4  git clone https://github.com/lebaonhihoang/EPA-ITM
+    5  ls
+    6  mkdir week2
+    7  ls
+    8  mv week1 week2 EPA-ITM
+    9  mkdir week1
+   10  mv week1 week2 week3 EPA-ITM
+   11  mkdir week2
+   12  mv week1 week2 week3 EPA-ITM
+   13  mkdir week3
+   14  mv week1 week2 week3 EPA-ITM
+   15  ls
+   16  cd EPA-ITM/
+   17  ls
+   18  chmod +x
+   19  chmod + x
+   20  chmod --help
+   21  chmod -x
+   22  chmod +x
+   23  chmod+x
+   24  ./lab2
+   25  cd ..
+   26  ./lab2
+   27  chmod +x
+   28  cd week3
+   29  cd EPA-ITM/
+   30  cd week3
+   31  cd ..
+   32  ls
+   33  cd EPA-ITM/
+   34  cd week3
+   35  ls
+   36  rm hello.sh
+   37  nano hello.sh
+   38  ./hello.sh
+   39  chmod +x
+   40  chmod+x
+   41  chmod+x hello.sh
+   42  chmod +x hello.sh
+   43  ./hello.sh
+   44  git add hello.sh
+   45  git commit -m "first bash file hello.sh"
+   46  git push
+   47  nano hello.sh
+   48  ./hello.sh
+   49  git push
+   50  git commit -m "added a new line "
+   51  git push
+   52  git add hello.sh
+   53  git commit -m "added a new line"
+   54  git push
+   55  nano history.txt
+   56  hiostory
+   57  history
+
