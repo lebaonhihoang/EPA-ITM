@@ -1,0 +1,23 @@
+ 334  nano loadtest.C
+  335  g++ -fopenmp loadtest.C -o loadtest
+  336  chmod +x loadtest.C
+  337  ./loadtest
+  338  nano lab-steps.txt
+  339  ./loadtest 25
+  340  ./loadtest 20
+  341  ./loadWrapper.sh 100 10
+  342  mpstat1
+  343  mpstat 1
+  344  ls -l
+  345  cd week8
+  346  nano loadtest.C
+  347  chmod +x loadtester.C
+  348  chmod +x loadtest.C
+  349  ++ -fopenmp loadtest.C -o loadtest
+  350  g++ -fopenmp loadtest.C -o loadtest
+  351  ./loadtest
+  352  nano loadWrapper.sh
+  353  mpstat 1
+  354  nano loadWrapper.sh 
+  355  history
+
