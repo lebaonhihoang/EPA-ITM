@@ -1,0 +1,11 @@
+this goes to a file truncating it first
+this goes to a file appending it
+this goes to a file appending it
+this goes to a file appending it
+this goes to a file appending it
+this goes to a file appending it
+this goes to a file appending it
+this goes to a file appending it
+this goes to a file appending it
+Thu 23 Nov 10:45:20 GMT 2017 this goes to a file appending it
+Timestamp is : Thu 23 Nov 10:49:13 GMT 2017. Working Directory is : /home/epa/EPA-ITM/week10
