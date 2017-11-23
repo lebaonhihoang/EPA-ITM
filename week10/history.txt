@@ -1,0 +1,86 @@
+475  cd week9
+  476  ls
+  477  git add mpstatCPU.sh
+  478  git commit -m"week9 lab for mpstatCPU"
+  479  week8
+  480  cd ..
+  481  cd week8
+  482  ls
+  483  git push
+  484  cd ..
+  485  git add week9
+  486  git commit -m"week 9 lab 9 mystatCPU"
+  487  cd week8
+  488  git commit -m"week 8"
+  489  git commit -m "week 8"
+  490  git add loadWrapper.sh
+  491  git commit -m"changes have been made to the loadWrapper.sh file"
+  492  git push
+  493  cd ..
+  494  git add week9
+  495  git commit-m "week 9 lab 9 on mpstatCPU"
+  496  git commit -m "week 9 lab 9 on mpstatCPU"
+  497  git commit -m"week 9 lab 9 on mpstatCPU"
+  498  git push
+  499  exit
+  500  cd EPA-ITM/
+  501  mkdir week10
+  502  cd week10
+  503  cd ..
+  504  cd week9
+  505  jq
+  506  mpstat 1 1 -o JSON | jq '.system.host[0]'
+  507  mpstat 1 1 -o JSON | jq '.system.hosts[0]'
+  508  mpstat 1 1 -o JSON | jq '.systat.hosts[0]'
+  509  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0]'
+  510  mpstat 1 1 -o JSON | jq '.sysstat'
+  511  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0]'
+  512  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics'
+  513  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]'
+  514  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]."cpu-load"'
+  515  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]."cpu-load"[0]'
+  516  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]."cpu-load"[1]'
+  517  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]."cpu-load"[0]'
+  518  mpstat 1 1 -o JSON | jq '.sysstat.hosts[0].statistics[0]."cpu-load"[0].idle'
+  519  nano idle.sh
+  520  ls
+  521  chmod +x idle.sh
+  522  ls
+  523  git add idle.sh
+  524  git commit -m"continue on with week9 lab this script is to find the idle time"
+  525  git push
+  526  cd ..
+  527  cd week10
+  528   echo "this goes to a file truncating it first" > file.txt
+  529  more
+  530  more file.txt
+  531  vi file.txt
+  532  ls
+  533  nano file.txt
+  534  wc -l file.txt
+  535   echo "this goes to a file truncating it first" > file.txt
+  536  wc -l file.txt
+  537  echo "this goes to a file appending it" >> file.txt
+  538  wc -l file.txt
+  539  more file.txt
+  540  date
+  541  echo "`date` this goes to a file appending it" >> file.txt
+  542  more file.txt
+  543  date +%B
+  544  date +%F
+  545  pwd
+  546  echo "`Timestamp is : date`. Working Directory is : `pwd`" >> file.txt
+  547  echo "Timestamp is : ` date`. Working Directory is : `pwd`" >> file.txt
+  548  more file.txt
+  549  crontab -e
+  550  ls
+  551  nano cronlogfile.txt
+  552  cd ..
+  553  git add week10
+  554  git commit -m"cron log files"
+  555  git push
+  556  week10
+  557  cd week10
+  558  nano history.txt
+  559  history
+
